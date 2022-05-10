@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.text-center{
+    text-align: center;
+}
+.mt20{
+    margin-top:20px;
+}
+html, body { height: 100%;  }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; 
+    /* background-image: linear-gradient(to left bottom, #ffbfe4, #f3bdec, #e4bdf3, #d2bdf9, #bdbefd, #a5c5ff, #8bcbff, #73d1ff, #53ddff, #28eaff, #00f5fc, #00ffef); */
+    /* background-image: linear-gradient(to left bottom, #000000, #2d1b19, #4f331f, #645322, #647a32); */
+    /* background-image: radial-gradient(circle, #868686, #86839b, #8281b1, #7980c8, #697fdf, #637ad9, #5c74d3, #566fcd, #5b64aa, #5a5b88, #535167, #494949); */
+    /* background-image: radial-gradient(circle, #969696, #8e8e8e, #868687, #7d7e7f, #757678, #6f7072, #68696b, #626365, #5c5c5e, #565657, #4f4f50, #494949); */
+    /* background-image: radial-gradient(circle, #d6d6d6, #cfcfcf, #c8c8c8, #c2c2c2, #bbbbbb, #b6b6b6, #b1b1b1, #acacac, #a7a7a7, #a3a3a3, #9e9e9e, #9a9a9a); */
+    background-image: radial-gradient(circle, #c0bebe, #b7b5b5, #aeabab, #a6a2a2, #9d9999, #989494, #928e8e, #8d8989, #8a8686, #878484, #848181, #817f7f);
+}
+
+/* button,{
+    background-color: rgb(115, 134, 213);
+} */

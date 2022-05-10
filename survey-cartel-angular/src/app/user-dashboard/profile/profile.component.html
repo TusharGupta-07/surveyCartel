@@ -1,0 +1,42 @@
+
+
+
+<div style="display:flex;justify-content:center;height:100%; width:100%;">
+
+  
+    <div class="card border-dark mb-3 mt20"  style="    box-shadow: 0 0 5px 2px #000;
+    ">
+
+
+        <div class="card-header text-center"><h1>USER PROFILE</h1></div>
+        <div class="card-body text-dark">
+            <table class="table text-center" border="3" style="width:50rem;height:30rem">
+                <tr>
+                    <td><h3>Name</h3></td>
+                    <td><h3>{{user.fullName}}</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>User Id</h3></td>
+                    <td><h3>{{user.id}}</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Phone</h3></td>
+                    <td><h3>{{user.mobileNo}}</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Email</h3></td>
+                    <td><h3>{{user.email}}</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Role</h3></td>
+                    <td><h3>{{user.authorities[0].authority}}</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Status</h3></td>
+                    <td><h3>{{user.enabled ? "ACTIVE" : "NOTACTIVE"}}</h3></td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+</div>

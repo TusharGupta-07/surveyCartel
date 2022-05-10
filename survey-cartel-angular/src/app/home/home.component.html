@@ -1,0 +1,47 @@
+<!-- <div class="bootstrap-wrapper">
+    <div class="container">
+        <div class="raw">
+            <div *ngFor="let aboutSurvey of aboutSurveys;" class="col-md-6 offset-md-3 mt20">
+                <div class="card-header">{{aboutSurvey.surveyTitle}}</div>
+                <div class="card-body">
+                    <h5 class="card-title">Description</h5>
+                    <p class="card-text">{{aboutSurvey.surveyDescription}}</p>
+                    <a [routerLink]="'/user/surveyquestions/'+aboutSurvey.surveyId" class="btn btn-primary">Show Questions</a>
+                </div>
+                <div class="card-footer text-muted">{{aboutSurvey.surveyDate}}</div>
+            </div>
+
+
+        </div>
+    </div>
+</div> -->
+
+
+
+    <div class="container mt-0 mb-0">
+        <div class="row">
+
+            <!-- <div ngIf="" ><h1>No data to show</h1></div> -->
+            <div class="col-md-4" *ngFor="let aboutSurvey of aboutSurveys; let i = index">
+                <div class="card mt-4 p-3 mb-2">
+                    <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-row align-items-center">
+                            <div class="icon"> <i class="bx bxl-reddit"></i> </div>
+                            <div class="ms-2 c-details">
+                                <h6 class="mb-0">{{aboutSurvey.userEmail}}</h6> <span>{{aboutSurvey.surveyDate}}</span> <br><span>{{attemptedOrNot[i]}}</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-5">
+                        <h3 class="heading">{{aboutSurvey.surveyTitle}}<br>{{aboutSurvey.surveyDescription}}</h3>
+                        <div class="mt-5">
+                            <a [routerLink]="'/user/surveyquestions/'+aboutSurvey.surveyId" class="btn btn-primary">Show
+                                Questions</a>
+
+                            <div class="mt-3"> <span class="text1">{{ResponseCount[i]}} Users Responded </span> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,62 @@
+<div class="wrapper">
+    <!-- Sidebar  -->
+    <nav id="sidebar">
+        <div class="sidebar-header">
+            <h2>{{currentUsername}}</h2>
+            <h6 style="padding:0px">{{currentUseremail}}</h6>
+        </div>
+
+        <ul class="list-unstyled components">
+            <li class="active">
+                <a [routerLink]="'/user/dashboard/'">Attemped Surveys</a>
+
+                <!-- <a [routerLink]="'/user/dashboard'" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Attemped Surveys</a> -->
+                <!-- <ul class="collapse list-unstyled" id="homeSubmenu">
+                    <li>
+                        <a href="">Home 1</a>
+                    </li>
+                    <li>
+                        <a href="#">Home 2</a>
+                    </li>
+                    <li>
+                        <a href="#">Home 3</a>
+                    </li>
+                </ul> -->
+            </li>
+            <li>
+                <a [routerLink]="'/user/dashboard/mysurveys/'">My Surveys</a>
+            </li>
+            <li>
+                <a [routerLink]="'/user/dashboard/settings/'">Account Settings</a>
+
+                <!-- <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a> -->
+                <!-- <ul class="collapse list-unstyled" id="pageSubmenu">
+                    <li>
+                        <a href="#">Page 1</a>
+                    </li>
+                    <li>
+                        <a href="#">Page 2</a>
+                    </li>
+                    <li>
+                        <a href="#">Page 3</a>
+                    </li>
+                </ul> -->
+            </li>
+            <li>
+                <a href="#">Portfolio</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+
+
+    </nav>
+
+    <!-- Page Content  -->
+    <div id="content">
+
+
+
+    </div>
+</div>

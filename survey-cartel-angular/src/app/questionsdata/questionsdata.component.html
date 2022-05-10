@@ -1,0 +1,42 @@
+<div class="bootstrap-wrapper ">
+    <div class="container">
+        <div class="raw mt20">
+            <p style="color:white">IMPORTANT<span style="color:red">*</span> -> You can only give your opinion one time in a particalar question. So, give your opinion wisely there no way home...!!</p>
+            <div *ngFor="let surveyquestion of surveyQuestion; let i = index" class="col-md-6 mt20" style="width:100%;">
+                <div class="card-header" style="background-color:rgb(230, 230, 230)">Question : {{i+1}}</div>
+                <div class="card-body" style="background-color:rgb(230, 230, 230)">
+                    <!-- <h5 class="card-title">Description</h5> -->
+                    <p class="card-text" style="font-size:1.2rem;padding-top:0.5rem;padding-bottom:0.5rem">
+                        {{surveyquestion.questionDescription}}</p>
+
+
+
+                    <form action="">
+                        <div style="padding-bottom:0.3rem;">
+
+                            <!-- <div>fdjasjf</div> -->
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" [disabled]="isDisabled[i]" type="radio" 
+                                    name="surveyquestion.questionId" id="radioAgree"
+                                    (click)="submitQuestion(surveyquestion.questionId, 1, i);">Agree
+                                <!-- <label class="form-check-label" for="radioAgree"></label> -->
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" [disabled]="isDisabled[i]" type="radio"
+                                    name="surveyquestion.questionId" id="radioDisagree"
+                                    (click)="submitQuestion(surveyquestion.questionId, 0, i);">Disagree
+                                <!-- <label class="form-check-label" for="radioDisagree">Disagree</label> -->
+                            </div>
+                        </div>
+                        <br />
+                    </form>
+
+                </div>
+
+            </div>
+
+            <a class="btn btn-primary" (click) = "exitSurvey()" style="margin-top:1rem;margin-bottom:2rem">Exit Survey</a>
+
+        </div>
+    </div>
+</div>

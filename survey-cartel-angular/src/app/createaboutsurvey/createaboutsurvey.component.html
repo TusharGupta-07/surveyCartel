@@ -1,0 +1,67 @@
+  <div class="bootstrap-wrapper" style="color:white;">
+    <div class="container">
+      <div class="raw">
+
+        <div class="col-md-6 offset-md-3 mt20">
+
+
+          <!-- Pills navs -->
+          <ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active" id="tab-login" data-mdb-toggle="pill" routerLink="/user/createsurvey"
+                role="tab" aria-controls="pills-login" aria-selected="true">Survey Description</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="tab-register" data-mdb-toggle="pill" role="tab" aria-controls="pills-register"
+                aria-selected="false">Survey Question</a>
+            </li>
+          </ul>
+          <!-- Pills navs -->
+
+          <!-- Pills content -->
+          <div class="tab-content">
+            <!-- {{aboutsurvey|json}} -->
+            <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="tab-login">
+              <form (ngSubmit)="formSubmit()">
+                <div class="text-center mb-3">
+                  <p>ADD SURVEY DESCRIPTION</p>
+                </div>
+
+                <!-- <input type="hidden" [(ngModel)]="aboutsurvey.surveyId" name="surveyId" type="text" id="surveyId" class="form-control" /> -->
+
+                <!-- Title input -->
+                <div class="form-outline mb-4">
+                  <input [(ngModel)]="aboutsurvey.surveyTitle" name="surveyTitle" type="text" id="surveyTitle"
+                    class="form-control" />
+                  <label class="form-label" for="surveyTitle">Survey Title</label>
+                </div>
+
+                <!-- Date input -->
+                <div class="form-outline mb-4">
+                  <input [(ngModel)]="aboutsurvey.surveyDate" name="surveyDate" type="date" id="surveyDate"
+                    class="form-control"  pattern="YYYY-MM-DD" min={{today}}/>
+                  <label class="form-label" for="surveyDate">Survey Date</label>
+                </div>
+
+                <!-- Description input -->
+                <div class="form-outline mb-4">
+                  <input type="text" [(ngModel)]="aboutsurvey.surveyDescription" name="surveyDescription"
+                    id="surveyDescription" class="form-control" />
+                  <label class="form-label" for="surveyDescription">Survey Description</label>
+                </div>
+
+
+
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-primary btn-block mb-4">Submit Description</button>
+
+
+              </form>
+            </div>
+
+            <!-- Pills content -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

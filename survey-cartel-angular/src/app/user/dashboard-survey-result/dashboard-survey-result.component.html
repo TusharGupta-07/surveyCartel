@@ -1,0 +1,50 @@
+<div style="display: flex;">
+
+    <app-user-dashboard-nav></app-user-dashboard-nav>
+
+    <!-- <div>
+        <div *ngFor="let SResultResponse of surveyResultResponse; let i = index">
+            <div>
+                <p>User Agreed : {{SResultResponse[0]}}</p>
+
+                <p>User Disagreed : {{SResultResponse[1]}}</p>
+
+                <p>``````````````````````````````````````</p>
+            </div>
+        </div> -->
+
+
+    <div class="bootstrap-wrapper ">
+        <div class="container">
+            <div class="raw mt20" style="width: 80%;">
+                <p style="color:rgb(160, 160, 160)">IMPORTANT -> You can only give your opinion one
+                    time in a particalar question. So, give your opinion wisely there no way home...!!</p>
+                <div *ngFor="let SResultResponse of surveyResultResponse; let i = index" class="col-md-6 mt20"
+                    style="width:100%;">
+                    <div class="card-header" style="background-color:rgb(230, 230, 230)">Question : {{i+1}}</div>
+                    <div class="card-body" style="background-color:rgb(230, 230, 230)">
+                        <!-- <h5 class="card-title">Description</h5> -->
+                        <p class="card-text" style="font-size:1.2rem;padding-top:0.5rem;padding-bottom:0.5rem">
+                            Agree
+                            {{SResultResponse[0]}}</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="color:rgb(218, 247, 0);" [style.width]="[100-SResultResponse[1]] + '%'" aria-valuenow="" aria-valuemin="0" aria-valuemax="100">{{[100-SResultResponse[1]]}}%</div>
+                              </div>
+                        <p class="card-text" style="font-size:1.2rem;padding-top:0.5rem;padding-bottom:0.5rem">
+                            Disagree
+                            {{SResultResponse[2]}}</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="color:rgb(218, 247, 0);" [style.width]="[100-SResultResponse[3]] + '%'" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">{{[100-SResultResponse[3]]}}%</div>
+                              </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
