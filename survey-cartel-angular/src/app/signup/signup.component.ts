@@ -27,7 +27,6 @@ export class SignupComponent implements OnInit {
 
   formSubmit()
   {
-    console.log(this.user);
     if(this.user.email=='' || this.user.fullName=='' || this.user.mobileNo=='' || this.user.password==''){
       this.snack.open("Can't leave required fields empty", '',{
         duration: 3000,

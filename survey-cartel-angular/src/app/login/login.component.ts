@@ -17,6 +17,10 @@ export class LoginComponent implements OnInit {
     password: ''
   }
   ngOnInit(): void {
+    if(this.login.isLoggedIn())
+    {
+      this.router.navigate(['']);
+    }
   }
 
   formSubmit() {

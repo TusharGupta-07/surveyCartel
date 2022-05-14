@@ -14,7 +14,7 @@ import { DashboardSurveyResultComponent } from './user/dashboard-survey-result/d
 import { DashboardMysurveysComponent } from './user/dashboard-mysurveys/dashboard-mysurveys.component';
 import { DashboardUserSettingsComponent } from './user/dashboard-user-settings/dashboard-user-settings.component';
 import { DashbaordShowOnlyQuestionComponent } from './user/dashbaord-show-only-question/dashbaord-show-only-question.component';
-import { BmiCalcComponent } from './bmi-calc/bmi-calc.component';
+import { UserProfileUpdateComponent } from './user-dashboard/user-profile-update/user-profile-update.component';
 
 const routes: Routes = [
   {
@@ -39,11 +39,7 @@ const routes: Routes = [
     pathMatch: 'full'
   },
 
-  {
-    path:'bmicalc',
-    component: BmiCalcComponent,
-    pathMatch:'full'
-  },
+
   {
     path: 'admin',
     // component: ,
@@ -124,7 +120,19 @@ const routes: Routes = [
 
         {
           path:'profile',
-          component:ProfileComponent
+          // component:ProfileComponent
+
+          children:
+          [
+            {
+              path:'',
+              component:ProfileComponent
+            },
+            {
+              path:'updateProfile',
+              component:UserProfileUpdateComponent
+            }
+          ]
         },
 
         {

@@ -25,7 +25,7 @@ import { DashboardMysurveysComponent } from './user/dashboard-mysurveys/dashboar
 import { UserDashboardNavComponent } from './user/user-dashboard-nav/user-dashboard-nav.component';
 import { DashboardUserSettingsComponent } from './user/dashboard-user-settings/dashboard-user-settings.component';
 import { DashbaordShowOnlyQuestionComponent } from './user/dashbaord-show-only-question/dashbaord-show-only-question.component';
-import { BmiCalcComponent } from './bmi-calc/bmi-calc.component';
+import { UserProfileUpdateComponent } from './user-dashboard/user-profile-update/user-profile-update.component';
 
 
 @NgModule({
@@ -46,7 +46,7 @@ import { BmiCalcComponent } from './bmi-calc/bmi-calc.component';
     UserDashboardNavComponent,
     DashboardUserSettingsComponent,
     DashbaordShowOnlyQuestionComponent,
-    BmiCalcComponent
+    UserProfileUpdateComponent
 
   ],
   imports: [

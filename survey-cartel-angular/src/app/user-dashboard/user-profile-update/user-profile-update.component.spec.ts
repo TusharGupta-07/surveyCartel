@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BmiCalcComponent } from './bmi-calc.component';
+import { UserProfileUpdateComponent } from './user-profile-update.component';
 
-describe('BmiCalcComponent', () => {
-  let component: BmiCalcComponent;
-  let fixture: ComponentFixture<BmiCalcComponent>;
+describe('UserProfileUpdateComponent', () => {
+  let component: UserProfileUpdateComponent;
+  let fixture: ComponentFixture<UserProfileUpdateComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ BmiCalcComponent ]
+      declarations: [ UserProfileUpdateComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(BmiCalcComponent);
+    fixture = TestBed.createComponent(UserProfileUpdateComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

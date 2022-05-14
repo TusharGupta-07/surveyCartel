@@ -39,8 +39,8 @@
                 <!-- Date input -->
                 <div class="form-outline mb-4">
                   <input [(ngModel)]="aboutsurvey.surveyDate" name="surveyDate" type="date" id="surveyDate"
-                    class="form-control"  pattern="YYYY-MM-DD" min={{today}}/>
-                  <label class="form-label" for="surveyDate">Survey Date</label>
+                    class="form-control"  pattern="YYYY-MM-DD" min={{today}} max=2030-01-01/>
+                  <label class="form-label" for="surveyDate">Survey Ending Date</label>
                 </div>
 
                 <!-- Description input -->

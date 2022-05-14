@@ -1,0 +1,58 @@
+<div style="display:flex;justify-content:center;height:100%; width:100%;">
+
+
+    <div class="card border-dark mb-3 mt20" style="    box-shadow: 0 0 5px 2px #000;
+    ">
+        <form class="text-center border border-light p-5 " (ngSubmit)="updateUserProfile()">
+
+            <p class="h4 mb-4">UPDATE PROFILE</p>
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+                <input [(ngModel)]="user.email" disabled="disabled" placeholder=user.email name="email" type="email" id="email" class="form-control" />
+                <label class="form-label" for="email" >Email address</label>
+            </div>
+            <!-- Full Name input -->
+            <div class="form-outline mb-4">
+                <input [(ngModel)]="user.fullName" name="fullName" type="text" id="fullName" class="form-control" />
+                <label class="form-label" for="fullName">Full Name</label>
+            </div>
+
+
+
+
+
+
+            <!-- Mobile Number input -->
+            <div class="form-outline mb-4">
+                <input [(ngModel)]="user.mobileNo" name="mobileNo" type="numbere" id="mobileNo" class="form-control" />
+                <label class="form-label" for="mobileNo">Mobile Number</label>
+            </div>
+
+            <!-- 2 column grid layout with text inputs for the profession and organization names -->
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="form-outline">
+                        <input [(ngModel)]="user.organization" name="organization" type="text" id="organization"
+                            class="form-control" />
+                        <label class="form-label" for="organization">Organization</label>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="form-outline">
+                        <input [(ngModel)]="user.profession" name="profession" type="text" id="profession"
+                            class="form-control" />
+                        <label class="form-label" for="profession">Profession</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary btn-block mb-4">
+                UPDATE
+            </button>
+
+        </form>
+
+
+    </div>
+</div>

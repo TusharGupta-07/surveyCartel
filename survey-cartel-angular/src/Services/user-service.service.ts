@@ -17,5 +17,10 @@ export class UserServiceService {
     {
       return this.http.delete(`${baseUrl}/user/${userid}`);
     }
+    public updateUser(user:any)
+    {
+      console.log(user.email);
+      return this.http.put(`${baseUrl}/user/update/${user.email}`, user);
+    }
   }
 

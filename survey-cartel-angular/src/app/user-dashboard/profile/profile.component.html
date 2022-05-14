@@ -15,18 +15,34 @@
                     <td><h3>Name</h3></td>
                     <td><h3>{{user.fullName}}</h3></td>
                 </tr>
+
                 <tr>
-                    <td><h3>User Id</h3></td>
-                    <td><h3>{{user.id}}</h3></td>
+                    <td><h3>Email</h3></td>
+                    <td><h3>{{user.email}}</h3></td>
                 </tr>
                 <tr>
                     <td><h3>Phone</h3></td>
                     <td><h3>{{user.mobileNo}}</h3></td>
                 </tr>
+                
                 <tr>
-                    <td><h3>Email</h3></td>
-                    <td><h3>{{user.email}}</h3></td>
+                    <td><h3>Organization</h3></td>
+                    <td><h3>{{user.organization}}</h3></td>
                 </tr>
+
+                <tr>
+                    <td><h3>Profession</h3></td>
+                    <td><h3>{{user.profession}}</h3></td>
+                </tr>
+
+                <tr>
+                    <td><h3>User Id</h3></td>
+                    <td><h3>{{user.id}}</h3></td>
+                </tr>
+                
+                
+                
+                
                 <tr>
                     <td><h3>Role</h3></td>
                     <td><h3>{{user.authorities[0].authority}}</h3></td>
@@ -38,5 +54,7 @@
             </table>
 
         </div>
+        <button type="button" [routerLink]="'/user/profile/updateProfile'"class="btn btn-danger">Edit Profile</button>
+        
     </div>
 </div>

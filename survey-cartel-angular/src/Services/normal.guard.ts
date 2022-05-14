@@ -21,6 +21,7 @@ export class NormalGuard implements CanActivate {
     
     if(this.login.isLoggedIn() && this.login.getUserRole()=='USER')
     {
+
       return true;
     }
     
