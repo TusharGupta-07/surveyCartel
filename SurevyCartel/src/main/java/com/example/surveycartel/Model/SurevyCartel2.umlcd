@@ -1,0 +1,1424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_qP4UANCZEeyD_edza33nrg">
+  <modelElement href="SurevyCartel2.uml#_qv9iQNCZEeyD_edza33nrg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_rDPDkNCZEeyD_edza33nrg" target="_rDPDmNCZEeyD_edza33nrg">
+    <modelElement href="SurevyCartel2.uml#_q78v0NCZEeyD_edza33nrg"/>
+    <nameVisual xmi:id="_rDPDkdCZEeyD_edza33nrg" text=""/>
+    <sourceRole xmi:id="_rDPDktCZEeyD_edza33nrg" aggregationKind="NONE" name="surveyDate" navigable="true">
+      <modelElement href="SurevyCartel2.uml#_q7A7sdCZEeyD_edza33nrg"/>
+      <visibility xmi:id="_rDPDk9CZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDPDlNCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_rDPDldCZEeyD_edza33nrg" aggregationKind="NONE" name="">
+      <modelElement href="SurevyCartel2.uml#_q78v0dCZEeyD_edza33nrg"/>
+      <visibility xmi:id="_rDPDltCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDPDl9CZEeyD_edza33nrg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_rDXmcNCZEeyD_edza33nrg" source="_rDXmedCZEeyD_edza33nrg">
+    <modelElement href="SurevyCartel2.uml#_q8Gg0NCZEeyD_edza33nrg"/>
+    <stereotypes xmi:id="_rDXmcdCZEeyD_edza33nrg" name="Reference">
+      <modelElement href="SurevyCartel2.uml#_q8MAYNCZEeyD_edza33nrg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_rDXmctCZEeyD_edza33nrg" text=""/>
+    <sourceRole xmi:id="_rDXmc9CZEeyD_edza33nrg" aggregationKind="NONE" name="">
+      <modelElement href="SurevyCartel2.uml#_q8Gg0dCZEeyD_edza33nrg"/>
+      <visibility xmi:id="_rDXmdNCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDXmddCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_rDXmdtCZEeyD_edza33nrg" aggregationKind="NONE" name="attachments" navigable="true">
+      <modelElement href="SurevyCartel2.uml#_q64Y0dCZEeyD_edza33nrg"/>
+      <visibility xmi:id="_rDXmd9CZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDXmeNCZEeyD_edza33nrg" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_rDhXcNCZEeyD_edza33nrg" sourceAnchor="0.0,208.0" targetAnchor="87.0,54.0" target="_rDilmdCZEeyD_edza33nrg" source="_rD-qcNCZEeyD_edza33nrg">
+    <modelElement href="SurevyCartel2.uml#_q8MAYdCZEeyD_edza33nrg"/>
+    <bendpoints xmi:id="_rfVwwdCZEeyD_edza33nrg" sourceX="-164" targetY="263"/>
+    <stereotypes xmi:id="_rDhXcdCZEeyD_edza33nrg" name="Reference">
+      <modelElement href="SurevyCartel2.uml#_q8SHANCZEeyD_edza33nrg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_rDhXctCZEeyD_edza33nrg" text="">
+      <visualProperties xmi:id="_rfYNANCZEeyD_edza33nrg" position="107.62071061388679,-2.1441460139608353"/>
+    </nameVisual>
+    <sourceRole xmi:id="_rDhXc9CZEeyD_edza33nrg" aggregationKind="NONE" name="">
+      <modelElement href="SurevyCartel2.uml#_q8MAYtCZEeyD_edza33nrg"/>
+      <visualProperties xmi:id="_rfXl8dCZEeyD_edza33nrg" position="-64.1055097959113,-10.904883494975934"/>
+      <visibility xmi:id="_rDhXdNCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDhXddCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_rDhXdtCZEeyD_edza33nrg" aggregationKind="NONE" name="userRoles" navigable="true">
+      <modelElement href="SurevyCartel2.uml#_q7akUNCZEeyD_edza33nrg"/>
+      <visualProperties xmi:id="_rfY0ENCZEeyD_edza33nrg" position="122.26750359036396,252.32221985425542"/>
+      <stereotypes xmi:id="_rDhXd9CZEeyD_edza33nrg" name="LegacyStyledElement">
+        <modelElement href="SurevyCartel2.uml#_q7bLYNCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rDhXeNCZEeyD_edza33nrg" name="Annotations">
+        <modelElement href="SurevyCartel2.uml#_q7bLYdCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDhXedCZEeyD_edza33nrg" label="-"/>
+      <cardinality xmi:id="_rDhXetCZEeyD_edza33nrg" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_rDh-gNCZEeyD_edza33nrg" sourceAnchor="465.0,0.0" targetAnchor="175.0,27.0" target="_rDilmdCZEeyD_edza33nrg" source="_rD-qcNCZEeyD_edza33nrg">
+    <modelElement href="SurevyCartel2.uml#_q74eYNCZEeyD_edza33nrg"/>
+    <bendpoints xmi:id="_rfWX0NCZEeyD_edza33nrg" sourceY="-82" targetX="541"/>
+    <nameVisual xmi:id="_rDh-gdCZEeyD_edza33nrg" text="">
+      <visualProperties xmi:id="_rfaCMNCZEeyD_edza33nrg" position="-10.609825357705176,40.055992033246866"/>
+    </nameVisual>
+    <sourceRole xmi:id="_rDh-gtCZEeyD_edza33nrg" aggregationKind="NONE" name="user" navigable="true">
+      <modelElement href="SurevyCartel2.uml#_q7e1wNCZEeyD_edza33nrg"/>
+      <visualProperties xmi:id="_rfZbINCZEeyD_edza33nrg" position="-27.84908787669019,-76.67022837655128"/>
+      <visibility xmi:id="_rDh-g9CZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDh-hNCZEeyD_edza33nrg" label="0..1" max="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_rDh-hdCZEeyD_edza33nrg" aggregationKind="NONE" name="">
+      <modelElement href="SurevyCartel2.uml#_q733UNCZEeyD_edza33nrg"/>
+      <visualProperties xmi:id="_rfaCMdCZEeyD_edza33nrg" position="520.9238087740786,53.70278500972404"/>
+      <visibility xmi:id="_rDh-htCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDh-h9CZEeyD_edza33nrg" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_rDilkNCZEeyD_edza33nrg" sourceAnchor="0.0,27.0" targetAnchor="152.0,131.0" target="_rDsWkNCZEeyD_edza33nrg" source="_rDilmdCZEeyD_edza33nrg">
+    <modelElement href="SurevyCartel2.uml#_q69RUNCZEeyD_edza33nrg"/>
+    <bendpoints xmi:id="_rfVwwNCZEeyD_edza33nrg" sourceX="-213" targetY="82"/>
+    <nameVisual xmi:id="_rDilkdCZEeyD_edza33nrg" text="">
+      <visualProperties xmi:id="_rfW-4NCZEeyD_edza33nrg" position="188.25067326163867,-1.7586807388746593"/>
+    </nameVisual>
+    <sourceRole xmi:id="_rDilktCZEeyD_edza33nrg" name="userRoles" navigable="true">
+      <modelElement href="SurevyCartel2.uml#_q661EdCZEeyD_edza33nrg"/>
+      <visualProperties xmi:id="_rfWX0dCZEeyD_edza33nrg" position="-89.09122413724299,-9.970717074615123"/>
+      <stereotypes xmi:id="_rDilk9CZEeyD_edza33nrg" name="FetchStrategy">
+        <modelElement href="SurevyCartel2.uml#_q68DMNCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDillNCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDilldCZEeyD_edza33nrg" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_rDilltCZEeyD_edza33nrg" aggregationKind="NONE" name="role" navigable="true">
+      <modelElement href="SurevyCartel2.uml#_q68qQNCZEeyD_edza33nrg"/>
+      <visualProperties xmi:id="_rfXl8NCZEeyD_edza33nrg" position="217.1093935289589,72.28351108454905"/>
+      <visibility xmi:id="_rDill9CZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDilmNCZEeyD_edza33nrg" label="0..1" max="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_rDDdYNCZEeyD_edza33nrg" name="UserSurveyResponse">
+    <modelElement href="SurevyCartel2.uml#_q0GbYNCZEeyD_edza33nrg"/>
+    <visualProperties xmi:id="_rDDdYdCZEeyD_edza33nrg" position="30.0,30.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_rDDdYtCZEeyD_edza33nrg" name="Table">
+      <modelElement href="SurevyCartel2.uml#_q0MiANCZEeyD_edza33nrg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_rDDdY9CZEeyD_edza33nrg" name="JPA1StyledElement">
+      <modelElement href="SurevyCartel2.uml#_q0NJENCZEeyD_edza33nrg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_rDDdZNCZEeyD_edza33nrg" name="TechnicalSupplement">
+      <modelElement href="SurevyCartel2.uml#_q0NwINCZEeyD_edza33nrg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_rDDdZdCZEeyD_edza33nrg" name="Annotations">
+      <modelElement href="SurevyCartel2.uml#_q0Ud0NCZEeyD_edza33nrg"/>
+    </stereotypes>
+    <visibility xmi:id="_rDDdZtCZEeyD_edza33nrg" label="+"/>
+    <attributes xmi:id="_rDDdZ9CZEeyD_edza33nrg" name="userSurveyResponseId">
+      <modelElement href="SurevyCartel2.uml#_q7igINCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rDDdaNCZEeyD_edza33nrg" name="LegacyStyledElement">
+        <modelElement href="SurevyCartel2.uml#_q7jHMNCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rDDdadCZEeyD_edza33nrg" name="Annotations">
+        <modelElement href="SurevyCartel2.uml#_q7jHMdCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDDdatCZEeyD_edza33nrg" label="~"/>
+      <cardinality xmi:id="_rDDda9CZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <type xmi:id="_rDDdbNCZEeyD_edza33nrg" name="Long">
+        <modelElement href="SurevyCartel2.uml#_q5n0kNCZEeyD_edza33nrg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rDDdbdCZEeyD_edza33nrg" name="questionId">
+      <modelElement href="SurevyCartel2.uml#_q7juQNCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rDDdbtCZEeyD_edza33nrg" name="StyledElement">
+        <modelElement href="SurevyCartel2.uml#_q7juQdCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDDdb9CZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDDdcNCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <type xmi:id="_rDDdcdCZEeyD_edza33nrg" name="Long">
+        <modelElement href="SurevyCartel2.uml#_q5n0kNCZEeyD_edza33nrg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rDDdctCZEeyD_edza33nrg" name="userEmail">
+      <modelElement href="SurevyCartel2.uml#_q7kVUNCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rDDdc9CZEeyD_edza33nrg" name="StyledElement">
+        <modelElement href="SurevyCartel2.uml#_q7kVUdCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDDddNCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDDdddCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <type xmi:id="_rDDddtCZEeyD_edza33nrg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rDDdd9CZEeyD_edza33nrg" name="surveyResponse">
+      <modelElement href="SurevyCartel2.uml#_q7kVUtCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rDDdeNCZEeyD_edza33nrg" name="LegacyStyledElement">
+        <modelElement href="SurevyCartel2.uml#_q7k8YNCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDDdedCZEeyD_edza33nrg" label="~"/>
+      <cardinality xmi:id="_rDDdetCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <type xmi:id="_rDDde9CZEeyD_edza33nrg" name="Boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rDDdfNCZEeyD_edza33nrg" name="surveyId">
+      <modelElement href="SurevyCartel2.uml#_q7k8YdCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rDDdfdCZEeyD_edza33nrg" name="StyledElement">
+        <modelElement href="SurevyCartel2.uml#_q7k8YtCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDDdftCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDDdf9CZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <type xmi:id="_rDDdgNCZEeyD_edza33nrg" name="Long">
+        <modelElement href="SurevyCartel2.uml#_q5n0kNCZEeyD_edza33nrg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_rDDdgdCZEeyD_edza33nrg" name="UserSurveyResponse">
+      <modelElement href="SurevyCartel2.uml#_q0O-QNCZEeyD_edza33nrg"/>
+      <keywords xmi:id="_rDDdgtCZEeyD_edza33nrg" keyword="create"/>
+      <stereotypes xmi:id="_rDDdg9CZEeyD_edza33nrg" name="LegacyStyledElement">
+        <modelElement href="SurevyCartel2.uml#_q0PlUdCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDDdhNCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDDdhdCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rDDdhtCZEeyD_edza33nrg">
+        <modelElement href="SurevyCartel2.uml#_q0PlUtCZEeyD_edza33nrg"/>
+        <type xmi:id="_rDDdh9CZEeyD_edza33nrg" name="UserSurveyResponse">
+          <modelElement href="SurevyCartel2.uml#_q0GbYNCZEeyD_edza33nrg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rDDdiNCZEeyD_edza33nrg" name="getUserSurveyResponseId">
+      <modelElement href="SurevyCartel2.uml#_q0QzcNCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rDDdidCZEeyD_edza33nrg" name="StyledElement">
+        <modelElement href="SurevyCartel2.uml#_q0RagNCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDDditCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDDdi9CZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rDDdjNCZEeyD_edza33nrg">
+        <modelElement href="SurevyCartel2.uml#_q6pvUdCZEeyD_edza33nrg"/>
+        <type xmi:id="_rDDdjdCZEeyD_edza33nrg" name="Long">
+          <modelElement href="SurevyCartel2.uml#_q5n0kNCZEeyD_edza33nrg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rDDdjtCZEeyD_edza33nrg" name="getSurveyResponse">
+      <modelElement href="SurevyCartel2.uml#_q0RagdCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rDDdj9CZEeyD_edza33nrg" name="StyledElement">
+        <modelElement href="SurevyCartel2.uml#_q0SBkdCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDDdkNCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDDdkdCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rDDdktCZEeyD_edza33nrg">
+        <modelElement href="SurevyCartel2.uml#_q0SBkNCZEeyD_edza33nrg"/>
+        <type xmi:id="_rDDdk9CZEeyD_edza33nrg" name="Boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rDDdlNCZEeyD_edza33nrg" name="setSurveyResponse">
+      <modelElement href="SurevyCartel2.uml#_q0SooNCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rDDdldCZEeyD_edza33nrg" name="StyledElement">
+        <modelElement href="SurevyCartel2.uml#_q0SootCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDDdltCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDDdl9CZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_rDDdmNCZEeyD_edza33nrg" name="surveyResponse">
+        <modelElement href="SurevyCartel2.uml#_q0SoodCZEeyD_edza33nrg"/>
+        <cardinality xmi:id="_rDDdmdCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+        <type xmi:id="_rDDdmtCZEeyD_edza33nrg" name="Boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rDDdm9CZEeyD_edza33nrg" name="toString">
+      <modelElement href="SurevyCartel2.uml#_q0TPsNCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rDDdnNCZEeyD_edza33nrg" name="LegacyStyledElement">
+        <modelElement href="SurevyCartel2.uml#_q0T2wNCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rDDdndCZEeyD_edza33nrg" name="Annotations">
+        <modelElement href="SurevyCartel2.uml#_q0T2wdCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDDdntCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDDdn9CZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rDDdoNCZEeyD_edza33nrg">
+        <modelElement href="SurevyCartel2.uml#_q0TPsdCZEeyD_edza33nrg"/>
+        <type xmi:id="_rDDdodCZEeyD_edza33nrg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rDDdotCZEeyD_edza33nrg" name="UserSurveyResponse">
+      <modelElement href="SurevyCartel2.uml#_q6ohMNCZEeyD_edza33nrg"/>
+      <keywords xmi:id="_rDDdo9CZEeyD_edza33nrg" keyword="create"/>
+      <stereotypes xmi:id="_rDDdpNCZEeyD_edza33nrg" name="StyledElement">
+        <modelElement href="SurevyCartel2.uml#_q6pvUNCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDDdpdCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDDdptCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rDDdp9CZEeyD_edza33nrg">
+        <modelElement href="SurevyCartel2.uml#_q6pIRNCZEeyD_edza33nrg"/>
+        <type xmi:id="_rDDdqNCZEeyD_edza33nrg" name="UserSurveyResponse">
+          <modelElement href="SurevyCartel2.uml#_q0GbYNCZEeyD_edza33nrg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_rDDdqdCZEeyD_edza33nrg" name="userSurveyResponseId">
+        <modelElement href="SurevyCartel2.uml#_q6ohMdCZEeyD_edza33nrg"/>
+        <cardinality xmi:id="_rDDdqtCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+        <type xmi:id="_rDDdq9CZEeyD_edza33nrg" name="Long">
+          <modelElement href="SurevyCartel2.uml#_q5n0kNCZEeyD_edza33nrg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_rDDdrNCZEeyD_edza33nrg" name="questionId">
+        <modelElement href="SurevyCartel2.uml#_q6ohMtCZEeyD_edza33nrg"/>
+        <cardinality xmi:id="_rDDdrdCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+        <type xmi:id="_rDDdrtCZEeyD_edza33nrg" name="Long">
+          <modelElement href="SurevyCartel2.uml#_q5n0kNCZEeyD_edza33nrg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_rDDdr9CZEeyD_edza33nrg" name="userEmail">
+        <modelElement href="SurevyCartel2.uml#_q6ohM9CZEeyD_edza33nrg"/>
+        <cardinality xmi:id="_rDDdsNCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+        <type xmi:id="_rDDdsdCZEeyD_edza33nrg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_rDDdstCZEeyD_edza33nrg" name="surveyResponse">
+        <modelElement href="SurevyCartel2.uml#_q6pIQNCZEeyD_edza33nrg"/>
+        <cardinality xmi:id="_rDDds9CZEeyD_edza33nrg" label="1" max="1" min="1"/>
+        <type xmi:id="_rDDdtNCZEeyD_edza33nrg" name="Boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_rDDdtdCZEeyD_edza33nrg" name="surveyId">
+        <modelElement href="SurevyCartel2.uml#_q6pIQdCZEeyD_edza33nrg"/>
+        <cardinality xmi:id="_rDDdttCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+        <type xmi:id="_rDDdt9CZEeyD_edza33nrg" name="Long">
+          <modelElement href="SurevyCartel2.uml#_q5n0kNCZEeyD_edza33nrg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rDDduNCZEeyD_edza33nrg" name="setUserSurveyResponseId">
+      <modelElement href="SurevyCartel2.uml#_q6qWYNCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rDDdudCZEeyD_edza33nrg" name="StyledElement">
+        <modelElement href="SurevyCartel2.uml#_q6q9cNCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDDdutCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDDdu9CZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_rDDdvNCZEeyD_edza33nrg" name="userSurveyResponseId">
+        <modelElement href="SurevyCartel2.uml#_q6qWYdCZEeyD_edza33nrg"/>
+        <cardinality xmi:id="_rDDdvdCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+        <type xmi:id="_rDDdvtCZEeyD_edza33nrg" name="Long">
+          <modelElement href="SurevyCartel2.uml#_q5n0kNCZEeyD_edza33nrg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_rDPDmNCZEeyD_edza33nrg" name="Survey" associationsIn="_rDPDkNCZEeyD_edza33nrg">
+    <modelElement href="SurevyCartel2.uml#_qyvwgNCZEeyD_edza33nrg"/>
+    <visualProperties xmi:id="_rDPDmdCZEeyD_edza33nrg" position="115.0,412.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_rDPDmtCZEeyD_edza33nrg" name="Table">
+      <modelElement href="SurevyCartel2.uml#_qy13INCZEeyD_edza33nrg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_rDPDm9CZEeyD_edza33nrg" name="JPA1StyledElement">
+      <modelElement href="SurevyCartel2.uml#_qy2eMNCZEeyD_edza33nrg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_rDPDnNCZEeyD_edza33nrg" name="TechnicalSupplement">
+      <modelElement href="SurevyCartel2.uml#_qy3FQNCZEeyD_edza33nrg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_rDPDndCZEeyD_edza33nrg" name="Annotations">
+      <modelElement href="SurevyCartel2.uml#_qy79wNCZEeyD_edza33nrg"/>
+    </stereotypes>
+    <visibility xmi:id="_rDPDntCZEeyD_edza33nrg" label="+"/>
+    <attributes xmi:id="_rDPDn9CZEeyD_edza33nrg" name="surveyId">
+      <modelElement href="SurevyCartel2.uml#_q6-fcNCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rDPDoNCZEeyD_edza33nrg" name="PrimaryKey">
+        <modelElement href="SurevyCartel2.uml#_q6_GgNCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rDPDodCZEeyD_edza33nrg" name="GeneratedValueMapping">
+        <modelElement href="SurevyCartel2.uml#_q6_GgdCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDPDotCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDPDo9CZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <type xmi:id="_rDPDpNCZEeyD_edza33nrg" name="Long">
+        <modelElement href="SurevyCartel2.uml#_q5n0kNCZEeyD_edza33nrg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rDPDpdCZEeyD_edza33nrg" name="surveyTitle">
+      <modelElement href="SurevyCartel2.uml#_q7AUoNCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rDPDptCZEeyD_edza33nrg" name="StyledElement">
+        <modelElement href="SurevyCartel2.uml#_q7A7sNCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDPDp9CZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDPDqNCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <type xmi:id="_rDPDqdCZEeyD_edza33nrg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rDPDqtCZEeyD_edza33nrg" name="surveyDate">
+      <modelElement href="SurevyCartel2.uml#_q7A7sdCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rDPDq9CZEeyD_edza33nrg" name="StyledElement">
+        <modelElement href="SurevyCartel2.uml#_q7A7stCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDPDrNCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDPDrdCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <type xmi:id="_rDPDrtCZEeyD_edza33nrg" name="Date">
+        <modelElement href="SurevyCartel2.uml#_q3lNMNCZEeyD_edza33nrg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rDPDr9CZEeyD_edza33nrg" name="surveyDescription">
+      <modelElement href="SurevyCartel2.uml#_q7A7s9CZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rDPDsNCZEeyD_edza33nrg" name="StyledElement">
+        <modelElement href="SurevyCartel2.uml#_q7BiwNCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDPDsdCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDPDstCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <type xmi:id="_rDPDs9CZEeyD_edza33nrg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rDPDtNCZEeyD_edza33nrg" name="expireStatus">
+      <modelElement href="SurevyCartel2.uml#_q7BiwdCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rDPDtdCZEeyD_edza33nrg" name="StyledElement">
+        <modelElement href="SurevyCartel2.uml#_q7CJ0NCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDPDttCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDPDt9CZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <type xmi:id="_rDPDuNCZEeyD_edza33nrg" name="Boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rDPDudCZEeyD_edza33nrg" name="userEmail">
+      <modelElement href="SurevyCartel2.uml#_q7CJ0dCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rDPDutCZEeyD_edza33nrg" name="StyledElement">
+        <modelElement href="SurevyCartel2.uml#_q7CJ0tCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDPDu9CZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDPDvNCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <type xmi:id="_rDPDvdCZEeyD_edza33nrg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_rDPDvtCZEeyD_edza33nrg" name="Survey">
+      <modelElement href="SurevyCartel2.uml#_qy4TYNCZEeyD_edza33nrg"/>
+      <keywords xmi:id="_rDPDv9CZEeyD_edza33nrg" keyword="create"/>
+      <stereotypes xmi:id="_rDPDwNCZEeyD_edza33nrg" name="StyledElement">
+        <modelElement href="SurevyCartel2.uml#_qy46c9CZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDPDwdCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDPDwtCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rDPDw9CZEeyD_edza33nrg">
+        <modelElement href="SurevyCartel2.uml#_qy46ctCZEeyD_edza33nrg"/>
+        <type xmi:id="_rDPDxNCZEeyD_edza33nrg" name="Survey">
+          <modelElement href="SurevyCartel2.uml#_qyvwgNCZEeyD_edza33nrg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rDPDxdCZEeyD_edza33nrg" name="toString">
+      <modelElement href="SurevyCartel2.uml#_qy6IkNCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rDPDxtCZEeyD_edza33nrg" name="LegacyStyledElement">
+        <modelElement href="SurevyCartel2.uml#_qy6vodCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rDPDx9CZEeyD_edza33nrg" name="Annotations">
+        <modelElement href="SurevyCartel2.uml#_qy7WsNCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDPDyNCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDPDydCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rDPDytCZEeyD_edza33nrg">
+        <modelElement href="SurevyCartel2.uml#_qy6voNCZEeyD_edza33nrg"/>
+        <type xmi:id="_rDPDy9CZEeyD_edza33nrg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rDPDzNCZEeyD_edza33nrg" name="Survey">
+      <modelElement href="SurevyCartel2.uml#_q55hYNCZEeyD_edza33nrg"/>
+      <keywords xmi:id="_rDPDzdCZEeyD_edza33nrg" keyword="create"/>
+      <stereotypes xmi:id="_rDPDztCZEeyD_edza33nrg" name="StyledElement">
+        <modelElement href="SurevyCartel2.uml#_q57WkNCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDPDz9CZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDPD0NCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rDPD0dCZEeyD_edza33nrg">
+        <modelElement href="SurevyCartel2.uml#_q56vgtCZEeyD_edza33nrg"/>
+        <type xmi:id="_rDPD0tCZEeyD_edza33nrg" name="Survey">
+          <modelElement href="SurevyCartel2.uml#_qyvwgNCZEeyD_edza33nrg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_rDPD09CZEeyD_edza33nrg" name="surveyTitle">
+        <modelElement href="SurevyCartel2.uml#_q55hYdCZEeyD_edza33nrg"/>
+        <cardinality xmi:id="_rDPD1NCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+        <type xmi:id="_rDPD1dCZEeyD_edza33nrg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_rDPD1tCZEeyD_edza33nrg" name="surveyDate">
+        <modelElement href="SurevyCartel2.uml#_q56IcNCZEeyD_edza33nrg"/>
+        <cardinality xmi:id="_rDPD19CZEeyD_edza33nrg" label="1" max="1" min="1"/>
+        <type xmi:id="_rDPD2NCZEeyD_edza33nrg" name="Date">
+          <modelElement href="SurevyCartel2.uml#_q3lNMNCZEeyD_edza33nrg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_rDPD2dCZEeyD_edza33nrg" name="surveyDescription">
+        <modelElement href="SurevyCartel2.uml#_q56IcdCZEeyD_edza33nrg"/>
+        <cardinality xmi:id="_rDPD2tCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+        <type xmi:id="_rDPD29CZEeyD_edza33nrg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_rDPD3NCZEeyD_edza33nrg" name="expireStatus">
+        <modelElement href="SurevyCartel2.uml#_q56IctCZEeyD_edza33nrg"/>
+        <cardinality xmi:id="_rDPD3dCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+        <type xmi:id="_rDPD3tCZEeyD_edza33nrg" name="Boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_rDPD39CZEeyD_edza33nrg" name="userEmail">
+        <modelElement href="SurevyCartel2.uml#_q56Ic9CZEeyD_edza33nrg"/>
+        <cardinality xmi:id="_rDPD4NCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+        <type xmi:id="_rDPD4dCZEeyD_edza33nrg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_rDXmedCZEeyD_edza33nrg" name="Mail" associationsOut="_rDXmcNCZEeyD_edza33nrg">
+    <modelElement href="SurevyCartel2.uml#_qydcoNCZEeyD_edza33nrg"/>
+    <visualProperties xmi:id="_rDXmetCZEeyD_edza33nrg" position="-233.0,-21.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_rDXme9CZEeyD_edza33nrg" label="+"/>
+    <attributes xmi:id="_rDXmfNCZEeyD_edza33nrg" name="mailFrom">
+      <modelElement href="SurevyCartel2.uml#_q62joNCZEeyD_edza33nrg"/>
+      <visibility xmi:id="_rDXmfdCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDXmftCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <type xmi:id="_rDXmf9CZEeyD_edza33nrg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rDXmgNCZEeyD_edza33nrg" name="mailTo">
+      <modelElement href="SurevyCartel2.uml#_q62jodCZEeyD_edza33nrg"/>
+      <visibility xmi:id="_rDXmgdCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDXmgtCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <type xmi:id="_rDXmg9CZEeyD_edza33nrg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rDXmhNCZEeyD_edza33nrg" name="mailCc">
+      <modelElement href="SurevyCartel2.uml#_q63KsNCZEeyD_edza33nrg"/>
+      <visibility xmi:id="_rDXmhdCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDXmhtCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <type xmi:id="_rDXmh9CZEeyD_edza33nrg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rDXmiNCZEeyD_edza33nrg" name="mailBcc">
+      <modelElement href="SurevyCartel2.uml#_q63xwNCZEeyD_edza33nrg"/>
+      <visibility xmi:id="_rDXmidCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDXmitCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <type xmi:id="_rDXmi9CZEeyD_edza33nrg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rDXmjNCZEeyD_edza33nrg" name="mailSubject">
+      <modelElement href="SurevyCartel2.uml#_q63xwdCZEeyD_edza33nrg"/>
+      <visibility xmi:id="_rDXmjdCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDXmjtCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <type xmi:id="_rDXmj9CZEeyD_edza33nrg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rDXmkNCZEeyD_edza33nrg" name="mailContent">
+      <modelElement href="SurevyCartel2.uml#_q63xwtCZEeyD_edza33nrg"/>
+      <visibility xmi:id="_rDXmkdCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDXmktCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <type xmi:id="_rDXmk9CZEeyD_edza33nrg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rDXmlNCZEeyD_edza33nrg" name="contentType">
+      <modelElement href="SurevyCartel2.uml#_q64Y0NCZEeyD_edza33nrg"/>
+      <visibility xmi:id="_rDXmldCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDXmltCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <type xmi:id="_rDXml9CZEeyD_edza33nrg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rDXmmNCZEeyD_edza33nrg" name="attachments">
+      <modelElement href="SurevyCartel2.uml#_q64Y0dCZEeyD_edza33nrg"/>
+      <visibility xmi:id="_rDXmmdCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDXmmtCZEeyD_edza33nrg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_rDXmm9CZEeyD_edza33nrg" name="Object">
+        <modelElement href="SurevyCartel2.uml#_q5bnUdCZEeyD_edza33nrg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_rDXmnNCZEeyD_edza33nrg" name="Mail">
+      <modelElement href="SurevyCartel2.uml#_qygf8NCZEeyD_edza33nrg"/>
+      <keywords xmi:id="_rDXmndCZEeyD_edza33nrg" keyword="create"/>
+      <stereotypes xmi:id="_rDXmntCZEeyD_edza33nrg" name="LegacyStyledElement">
+        <modelElement href="SurevyCartel2.uml#_qygf89CZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDXmn9CZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDXmoNCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rDXmodCZEeyD_edza33nrg">
+        <modelElement href="SurevyCartel2.uml#_qyhHANCZEeyD_edza33nrg"/>
+        <type xmi:id="_rDXmotCZEeyD_edza33nrg" name="Mail">
+          <modelElement href="SurevyCartel2.uml#_qydcoNCZEeyD_edza33nrg"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_rDb34NCZEeyD_edza33nrg" name="JwtResponse">
+    <modelElement href="SurevyCartel2.uml#_qyZLMNCZEeyD_edza33nrg"/>
+    <visualProperties xmi:id="_rDb34dCZEeyD_edza33nrg" position="1013.0,-21.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_rDb34tCZEeyD_edza33nrg" label="+"/>
+    <attributes xmi:id="_rDb349CZEeyD_edza33nrg" name="token">
+      <modelElement href="SurevyCartel2.uml#_q61VgNCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rDb35NCZEeyD_edza33nrg" name="LegacyStyledElement">
+        <modelElement href="SurevyCartel2.uml#_q618kNCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDb35dCZEeyD_edza33nrg" label="~"/>
+      <cardinality xmi:id="_rDb35tCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <type xmi:id="_rDb359CZEeyD_edza33nrg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_rDb36NCZEeyD_edza33nrg" name="JwtResponse">
+      <modelElement href="SurevyCartel2.uml#_qyZyQNCZEeyD_edza33nrg"/>
+      <keywords xmi:id="_rDb36dCZEeyD_edza33nrg" keyword="create"/>
+      <stereotypes xmi:id="_rDb36tCZEeyD_edza33nrg" name="LegacyStyledElement">
+        <modelElement href="SurevyCartel2.uml#_qyaZUtCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDb369CZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDb37NCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rDb37dCZEeyD_edza33nrg">
+        <modelElement href="SurevyCartel2.uml#_qyaZU9CZEeyD_edza33nrg"/>
+        <type xmi:id="_rDb37tCZEeyD_edza33nrg" name="JwtResponse">
+          <modelElement href="SurevyCartel2.uml#_qyZLMNCZEeyD_edza33nrg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rDb379CZEeyD_edza33nrg" name="JwtResponse">
+      <modelElement href="SurevyCartel2.uml#_qybAYNCZEeyD_edza33nrg"/>
+      <keywords xmi:id="_rDb38NCZEeyD_edza33nrg" keyword="create"/>
+      <visibility xmi:id="_rDb38dCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDb38tCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rDb389CZEeyD_edza33nrg">
+        <modelElement href="SurevyCartel2.uml#_qybnctCZEeyD_edza33nrg"/>
+        <type xmi:id="_rDb39NCZEeyD_edza33nrg" name="JwtResponse">
+          <modelElement href="SurevyCartel2.uml#_qyZLMNCZEeyD_edza33nrg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_rDb39dCZEeyD_edza33nrg" name="token">
+        <modelElement href="SurevyCartel2.uml#_qybAYdCZEeyD_edza33nrg"/>
+        <cardinality xmi:id="_rDb39tCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+        <type xmi:id="_rDb399CZEeyD_edza33nrg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rDb3-NCZEeyD_edza33nrg" name="getToken">
+      <modelElement href="SurevyCartel2.uml#_qybnc9CZEeyD_edza33nrg"/>
+      <visibility xmi:id="_rDb3-dCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDb3-tCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rDb3-9CZEeyD_edza33nrg">
+        <modelElement href="SurevyCartel2.uml#_qycOgNCZEeyD_edza33nrg"/>
+        <type xmi:id="_rDb3_NCZEeyD_edza33nrg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rDb3_dCZEeyD_edza33nrg" name="setToken">
+      <modelElement href="SurevyCartel2.uml#_qycOgdCZEeyD_edza33nrg"/>
+      <visibility xmi:id="_rDb3_tCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDb3_9CZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_rDb4ANCZEeyD_edza33nrg" name="token">
+        <modelElement href="SurevyCartel2.uml#_qycOgtCZEeyD_edza33nrg"/>
+        <cardinality xmi:id="_rDb4AdCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+        <type xmi:id="_rDb4AtCZEeyD_edza33nrg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_rDe7MNCZEeyD_edza33nrg" name="Authority">
+    <modelElement href="SurevyCartel2.uml#_qyNlANCZEeyD_edza33nrg"/>
+    <visualProperties xmi:id="_rDe7MdCZEeyD_edza33nrg" position="350.0,696.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_rDe7MtCZEeyD_edza33nrg" label="+"/>
+    <attributes xmi:id="_rDe7M9CZEeyD_edza33nrg" name="authority">
+      <modelElement href="SurevyCartel2.uml#_q6xEENCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rDe7NNCZEeyD_edza33nrg" name="LegacyStyledElement">
+        <modelElement href="SurevyCartel2.uml#_q6xrINCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDe7NdCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDe7NtCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <type xmi:id="_rDe7N9CZEeyD_edza33nrg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_rDe7ONCZEeyD_edza33nrg" name="Authority">
+      <modelElement href="SurevyCartel2.uml#_qyQBQNCZEeyD_edza33nrg"/>
+      <keywords xmi:id="_rDe7OdCZEeyD_edza33nrg" keyword="create"/>
+      <visibility xmi:id="_rDe7OtCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDe7O9CZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rDe7PNCZEeyD_edza33nrg">
+        <modelElement href="SurevyCartel2.uml#_qyQoUdCZEeyD_edza33nrg"/>
+        <type xmi:id="_rDe7PdCZEeyD_edza33nrg" name="Authority">
+          <modelElement href="SurevyCartel2.uml#_qyNlANCZEeyD_edza33nrg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_rDe7PtCZEeyD_edza33nrg" name="authority">
+        <modelElement href="SurevyCartel2.uml#_qyQBQdCZEeyD_edza33nrg"/>
+        <cardinality xmi:id="_rDe7P9CZEeyD_edza33nrg" label="1" max="1" min="1"/>
+        <type xmi:id="_rDe7QNCZEeyD_edza33nrg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_rDilmdCZEeyD_edza33nrg" name="UserRole" associationsIn="_rDhXcNCZEeyD_edza33nrg _rDh-gNCZEeyD_edza33nrg" associationsOut="_rDilkNCZEeyD_edza33nrg">
+    <modelElement href="SurevyCartel2.uml#_qz_tsNCZEeyD_edza33nrg"/>
+    <visualProperties xmi:id="_rDilmtCZEeyD_edza33nrg" position="-1249.0,189.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_rDilm9CZEeyD_edza33nrg" name="JPA1StyledElement">
+      <modelElement href="SurevyCartel2.uml#_q0A70NCZEeyD_edza33nrg"/>
+    </stereotypes>
+    <visibility xmi:id="_rDilnNCZEeyD_edza33nrg" label="+"/>
+    <attributes xmi:id="_rDilndCZEeyD_edza33nrg" name="role">
+      <modelElement href="SurevyCartel2.uml#_q68qQNCZEeyD_edza33nrg"/>
+      <visibility xmi:id="_rDilntCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDiln9CZEeyD_edza33nrg" label="0..1" max="1"/>
+      <type xmi:id="_rDiloNCZEeyD_edza33nrg" name="Role">
+        <modelElement href="SurevyCartel2.uml#_qylYcNCZEeyD_edza33nrg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rDilodCZEeyD_edza33nrg" name="userRoleId">
+      <modelElement href="SurevyCartel2.uml#_q7dnoNCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rDilotCZEeyD_edza33nrg" name="PrimaryKey">
+        <modelElement href="SurevyCartel2.uml#_q7dnodCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rDilo9CZEeyD_edza33nrg" name="GeneratedValueMapping">
+        <modelElement href="SurevyCartel2.uml#_q7eOsNCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDilpNCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDilpdCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <type xmi:id="_rDilptCZEeyD_edza33nrg" name="Long">
+        <modelElement href="SurevyCartel2.uml#_q5n0kNCZEeyD_edza33nrg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rDilp9CZEeyD_edza33nrg" name="user">
+      <modelElement href="SurevyCartel2.uml#_q7e1wNCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rDilqNCZEeyD_edza33nrg" name="FetchStrategy">
+        <modelElement href="SurevyCartel2.uml#_q7fc0NCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDilqdCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDilqtCZEeyD_edza33nrg" label="0..1" max="1"/>
+      <type xmi:id="_rDilq9CZEeyD_edza33nrg" name="User">
+        <modelElement href="SurevyCartel2.uml#_qzYCoNCZEeyD_edza33nrg"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_rDm3ANCZEeyD_edza33nrg" name="JwtRequest">
+    <modelElement href="SurevyCartel2.uml#_qySdgNCZEeyD_edza33nrg"/>
+    <visualProperties xmi:id="_rDm3AdCZEeyD_edza33nrg" position="1008.0,201.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_rDm3AtCZEeyD_edza33nrg" label="+"/>
+    <attributes xmi:id="_rDm3A9CZEeyD_edza33nrg" name="email">
+      <modelElement href="SurevyCartel2.uml#_q6zgUNCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rDm3BNCZEeyD_edza33nrg" name="LegacyStyledElement">
+        <modelElement href="SurevyCartel2.uml#_q6zgUdCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDm3BdCZEeyD_edza33nrg" label="~"/>
+      <cardinality xmi:id="_rDneENCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <type xmi:id="_rDneEdCZEeyD_edza33nrg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rDneEtCZEeyD_edza33nrg" name="password">
+      <modelElement href="SurevyCartel2.uml#_q60HYNCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rDneE9CZEeyD_edza33nrg" name="LegacyStyledElement">
+        <modelElement href="SurevyCartel2.uml#_q60ucNCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDneFNCZEeyD_edza33nrg" label="~"/>
+      <cardinality xmi:id="_rDneFdCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <type xmi:id="_rDneFtCZEeyD_edza33nrg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_rDneF9CZEeyD_edza33nrg" name="JwtRequest">
+      <modelElement href="SurevyCartel2.uml#_qyTroNCZEeyD_edza33nrg"/>
+      <keywords xmi:id="_rDneGNCZEeyD_edza33nrg" keyword="create"/>
+      <visibility xmi:id="_rDneGdCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDneGtCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rDneG9CZEeyD_edza33nrg">
+        <modelElement href="SurevyCartel2.uml#_qyUSstCZEeyD_edza33nrg"/>
+        <type xmi:id="_rDneHNCZEeyD_edza33nrg" name="JwtRequest">
+          <modelElement href="SurevyCartel2.uml#_qySdgNCZEeyD_edza33nrg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_rDneHdCZEeyD_edza33nrg" name="email">
+        <modelElement href="SurevyCartel2.uml#_qyTrodCZEeyD_edza33nrg"/>
+        <cardinality xmi:id="_rDneHtCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+        <type xmi:id="_rDneH9CZEeyD_edza33nrg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_rDneINCZEeyD_edza33nrg" name="password">
+        <modelElement href="SurevyCartel2.uml#_qyTrotCZEeyD_edza33nrg"/>
+        <cardinality xmi:id="_rDneIdCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+        <type xmi:id="_rDneItCZEeyD_edza33nrg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rDneI9CZEeyD_edza33nrg" name="JwtRequest">
+      <modelElement href="SurevyCartel2.uml#_qyU5wNCZEeyD_edza33nrg"/>
+      <keywords xmi:id="_rDneJNCZEeyD_edza33nrg" keyword="create"/>
+      <stereotypes xmi:id="_rDneJdCZEeyD_edza33nrg" name="LegacyStyledElement">
+        <modelElement href="SurevyCartel2.uml#_qyU5w9CZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDneJtCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDneJ9CZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rDneKNCZEeyD_edza33nrg">
+        <modelElement href="SurevyCartel2.uml#_qyVg0NCZEeyD_edza33nrg"/>
+        <type xmi:id="_rDneKdCZEeyD_edza33nrg" name="JwtRequest">
+          <modelElement href="SurevyCartel2.uml#_qySdgNCZEeyD_edza33nrg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rDneKtCZEeyD_edza33nrg" name="getEmail">
+      <modelElement href="SurevyCartel2.uml#_qyVg0dCZEeyD_edza33nrg"/>
+      <visibility xmi:id="_rDneK9CZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDneLNCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rDneLdCZEeyD_edza33nrg">
+        <modelElement href="SurevyCartel2.uml#_qyWH4NCZEeyD_edza33nrg"/>
+        <type xmi:id="_rDneLtCZEeyD_edza33nrg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rDneL9CZEeyD_edza33nrg" name="setEmail">
+      <modelElement href="SurevyCartel2.uml#_qyWH4dCZEeyD_edza33nrg"/>
+      <visibility xmi:id="_rDneMNCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDneMdCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_rDneMtCZEeyD_edza33nrg" name="email">
+        <modelElement href="SurevyCartel2.uml#_qyWH4tCZEeyD_edza33nrg"/>
+        <cardinality xmi:id="_rDneM9CZEeyD_edza33nrg" label="1" max="1" min="1"/>
+        <type xmi:id="_rDneNNCZEeyD_edza33nrg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rDneNdCZEeyD_edza33nrg" name="getPassword">
+      <modelElement href="SurevyCartel2.uml#_qyWu8NCZEeyD_edza33nrg"/>
+      <visibility xmi:id="_rDneNtCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDneN9CZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rDneONCZEeyD_edza33nrg">
+        <modelElement href="SurevyCartel2.uml#_qyWu8dCZEeyD_edza33nrg"/>
+        <type xmi:id="_rDneOdCZEeyD_edza33nrg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rDneOtCZEeyD_edza33nrg" name="setPassword">
+      <modelElement href="SurevyCartel2.uml#_qyXWANCZEeyD_edza33nrg"/>
+      <visibility xmi:id="_rDneO9CZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDnePNCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_rDnePdCZEeyD_edza33nrg" name="password">
+        <modelElement href="SurevyCartel2.uml#_qyXWAdCZEeyD_edza33nrg"/>
+        <cardinality xmi:id="_rDnePtCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+        <type xmi:id="_rDneP9CZEeyD_edza33nrg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_rDsWkNCZEeyD_edza33nrg" name="Role" associationsIn="_rDilkNCZEeyD_edza33nrg">
+    <modelElement href="SurevyCartel2.uml#_qylYcNCZEeyD_edza33nrg"/>
+    <visualProperties xmi:id="_rDsWkdCZEeyD_edza33nrg" position="-1614.0,3.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_rDsWktCZEeyD_edza33nrg" name="Table">
+      <modelElement href="SurevyCartel2.uml#_qyn0sNCZEeyD_edza33nrg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_rDsWk9CZEeyD_edza33nrg" name="JPA1StyledElement">
+      <modelElement href="SurevyCartel2.uml#_qyobwNCZEeyD_edza33nrg"/>
+    </stereotypes>
+    <visibility xmi:id="_rDsWlNCZEeyD_edza33nrg" label="+"/>
+    <attributes xmi:id="_rDsWldCZEeyD_edza33nrg" name="roleId">
+      <modelElement href="SurevyCartel2.uml#_q64_4NCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rDsWltCZEeyD_edza33nrg" name="PrimaryKey">
+        <modelElement href="SurevyCartel2.uml#_q65m8NCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDsWl9CZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDsWmNCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <type xmi:id="_rDsWmdCZEeyD_edza33nrg" name="Long">
+        <modelElement href="SurevyCartel2.uml#_q5n0kNCZEeyD_edza33nrg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rDsWmtCZEeyD_edza33nrg" name="roleName">
+      <modelElement href="SurevyCartel2.uml#_q66OANCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rDsWm9CZEeyD_edza33nrg" name="StyledElement">
+        <modelElement href="SurevyCartel2.uml#_q661ENCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDsWnNCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDsWndCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <type xmi:id="_rDsWntCZEeyD_edza33nrg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rDsWn9CZEeyD_edza33nrg" defaultValue="new HashSet&lt;>()" name="userRoles">
+      <modelElement href="SurevyCartel2.uml#_q661EdCZEeyD_edza33nrg"/>
+      <visibility xmi:id="_rDsWoNCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDsWodCZEeyD_edza33nrg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_rDsWotCZEeyD_edza33nrg" name="UserRole">
+        <modelElement href="SurevyCartel2.uml#_qz_tsNCZEeyD_edza33nrg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_rDsWo9CZEeyD_edza33nrg" name="Role">
+      <modelElement href="SurevyCartel2.uml#_qypp4NCZEeyD_edza33nrg"/>
+      <keywords xmi:id="_rDsWpNCZEeyD_edza33nrg" keyword="create"/>
+      <stereotypes xmi:id="_rDsWpdCZEeyD_edza33nrg" name="LegacyStyledElement">
+        <modelElement href="SurevyCartel2.uml#_qypp49CZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDsWptCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDsWp9CZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rDsWqNCZEeyD_edza33nrg">
+        <modelElement href="SurevyCartel2.uml#_qyqQ8NCZEeyD_edza33nrg"/>
+        <type xmi:id="_rDsWqdCZEeyD_edza33nrg" name="Role">
+          <modelElement href="SurevyCartel2.uml#_qylYcNCZEeyD_edza33nrg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rDsWqtCZEeyD_edza33nrg" name="Role">
+      <modelElement href="SurevyCartel2.uml#_q5zawNCZEeyD_edza33nrg"/>
+      <keywords xmi:id="_rDsWq9CZEeyD_edza33nrg" keyword="create"/>
+      <stereotypes xmi:id="_rDsWrNCZEeyD_edza33nrg" name="StyledElement">
+        <modelElement href="SurevyCartel2.uml#_q50o4NCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDsWrdCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDsWrtCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rDsWr9CZEeyD_edza33nrg">
+        <modelElement href="SurevyCartel2.uml#_q50B09CZEeyD_edza33nrg"/>
+        <type xmi:id="_rDsWsNCZEeyD_edza33nrg" name="Role">
+          <modelElement href="SurevyCartel2.uml#_qylYcNCZEeyD_edza33nrg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_rDsWsdCZEeyD_edza33nrg" name="roleId">
+        <modelElement href="SurevyCartel2.uml#_q5zawdCZEeyD_edza33nrg"/>
+        <cardinality xmi:id="_rDsWstCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+        <type xmi:id="_rDsWs9CZEeyD_edza33nrg" name="Long">
+          <modelElement href="SurevyCartel2.uml#_q5n0kNCZEeyD_edza33nrg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_rDsWtNCZEeyD_edza33nrg" name="roleName">
+        <modelElement href="SurevyCartel2.uml#_q50B0NCZEeyD_edza33nrg"/>
+        <cardinality xmi:id="_rDsWtdCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+        <type xmi:id="_rDsWttCZEeyD_edza33nrg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_rDydMNCZEeyD_edza33nrg" name="SurveyQuestion">
+    <modelElement href="SurevyCartel2.uml#_qzEgoNCZEeyD_edza33nrg"/>
+    <visualProperties xmi:id="_rDydMdCZEeyD_edza33nrg" position="33.0,831.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_rDydMtCZEeyD_edza33nrg" name="Table">
+      <modelElement href="SurevyCartel2.uml#_qzKAMNCZEeyD_edza33nrg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_rDydM9CZEeyD_edza33nrg" name="JPA1StyledElement">
+      <modelElement href="SurevyCartel2.uml#_qzLOUNCZEeyD_edza33nrg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_rDydNNCZEeyD_edza33nrg" name="TechnicalSupplement">
+      <modelElement href="SurevyCartel2.uml#_qzL1YNCZEeyD_edza33nrg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_rDydNdCZEeyD_edza33nrg" name="Annotations">
+      <modelElement href="SurevyCartel2.uml#_qzQt4NCZEeyD_edza33nrg"/>
+    </stereotypes>
+    <visibility xmi:id="_rDydNtCZEeyD_edza33nrg" label="+"/>
+    <attributes xmi:id="_rDydN9CZEeyD_edza33nrg" name="questionId">
+      <modelElement href="SurevyCartel2.uml#_q7DX8NCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rDydONCZEeyD_edza33nrg" name="PrimaryKey">
+        <modelElement href="SurevyCartel2.uml#_q7DX8dCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rDydOdCZEeyD_edza33nrg" name="GeneratedValueMapping">
+        <modelElement href="SurevyCartel2.uml#_q7DX8tCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDydOtCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDydO9CZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <type xmi:id="_rDydPNCZEeyD_edza33nrg" name="Long">
+        <modelElement href="SurevyCartel2.uml#_q5n0kNCZEeyD_edza33nrg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rDydPdCZEeyD_edza33nrg" name="surveyId">
+      <modelElement href="SurevyCartel2.uml#_q7D_ANCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rDydPtCZEeyD_edza33nrg" name="StyledElement">
+        <modelElement href="SurevyCartel2.uml#_q7EmENCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDydP9CZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDydQNCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <type xmi:id="_rDydQdCZEeyD_edza33nrg" name="Long">
+        <modelElement href="SurevyCartel2.uml#_q5n0kNCZEeyD_edza33nrg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rDydQtCZEeyD_edza33nrg" defaultValue="&quot;Title&quot;" name="questionTitle">
+      <modelElement href="SurevyCartel2.uml#_q7EmEdCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rDydQ9CZEeyD_edza33nrg" name="StyledElement">
+        <modelElement href="SurevyCartel2.uml#_q7FNINCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDydRNCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDydRdCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <type xmi:id="_rDydRtCZEeyD_edza33nrg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rDydR9CZEeyD_edza33nrg" name="questionDescription">
+      <modelElement href="SurevyCartel2.uml#_q7FNIdCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rDydSNCZEeyD_edza33nrg" name="StyledElement">
+        <modelElement href="SurevyCartel2.uml#_q7F0MNCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDydSdCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDydStCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <type xmi:id="_rDydS9CZEeyD_edza33nrg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rDydTNCZEeyD_edza33nrg" name="userEmail">
+      <modelElement href="SurevyCartel2.uml#_q7F0MdCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rDydTdCZEeyD_edza33nrg" name="StyledElement">
+        <modelElement href="SurevyCartel2.uml#_q7GbQNCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDydTtCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDydT9CZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <type xmi:id="_rDydUNCZEeyD_edza33nrg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_rDydUdCZEeyD_edza33nrg" name="SurveyQuestion">
+      <modelElement href="SurevyCartel2.uml#_qzNDgNCZEeyD_edza33nrg"/>
+      <keywords xmi:id="_rDydUtCZEeyD_edza33nrg" keyword="create"/>
+      <stereotypes xmi:id="_rDydU9CZEeyD_edza33nrg" name="StyledElement">
+        <modelElement href="SurevyCartel2.uml#_qzNqk9CZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDydVNCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDydVdCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rDydVtCZEeyD_edza33nrg">
+        <modelElement href="SurevyCartel2.uml#_qzNqktCZEeyD_edza33nrg"/>
+        <type xmi:id="_rDydV9CZEeyD_edza33nrg" name="SurveyQuestion">
+          <modelElement href="SurevyCartel2.uml#_qzEgoNCZEeyD_edza33nrg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rDydWNCZEeyD_edza33nrg" name="toString">
+      <modelElement href="SurevyCartel2.uml#_qzO4sNCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rDydWdCZEeyD_edza33nrg" name="LegacyStyledElement">
+        <modelElement href="SurevyCartel2.uml#_qzPfwdCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rDydWtCZEeyD_edza33nrg" name="Annotations">
+        <modelElement href="SurevyCartel2.uml#_qzQG0NCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDydW9CZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDydXNCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rDydXdCZEeyD_edza33nrg">
+        <modelElement href="SurevyCartel2.uml#_qzPfwNCZEeyD_edza33nrg"/>
+        <type xmi:id="_rDydXtCZEeyD_edza33nrg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rDydX9CZEeyD_edza33nrg" name="SurveyQuestion">
+      <modelElement href="SurevyCartel2.uml#_q6BdMNCZEeyD_edza33nrg"/>
+      <keywords xmi:id="_rDydYNCZEeyD_edza33nrg" keyword="create"/>
+      <stereotypes xmi:id="_rDydYdCZEeyD_edza33nrg" name="StyledElement">
+        <modelElement href="SurevyCartel2.uml#_q6CrU9CZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDydYtCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rDydY9CZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rDydZNCZEeyD_edza33nrg">
+        <modelElement href="SurevyCartel2.uml#_q6CrUtCZEeyD_edza33nrg"/>
+        <type xmi:id="_rDydZdCZEeyD_edza33nrg" name="SurveyQuestion">
+          <modelElement href="SurevyCartel2.uml#_qzEgoNCZEeyD_edza33nrg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_rDydZtCZEeyD_edza33nrg" name="questionId">
+        <modelElement href="SurevyCartel2.uml#_q6CEQNCZEeyD_edza33nrg"/>
+        <cardinality xmi:id="_rDydZ9CZEeyD_edza33nrg" label="1" max="1" min="1"/>
+        <type xmi:id="_rDydaNCZEeyD_edza33nrg" name="Long">
+          <modelElement href="SurevyCartel2.uml#_q5n0kNCZEeyD_edza33nrg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_rDydadCZEeyD_edza33nrg" name="surveyId">
+        <modelElement href="SurevyCartel2.uml#_q6CEQdCZEeyD_edza33nrg"/>
+        <cardinality xmi:id="_rDydatCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+        <type xmi:id="_rDyda9CZEeyD_edza33nrg" name="Long">
+          <modelElement href="SurevyCartel2.uml#_q5n0kNCZEeyD_edza33nrg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_rDydbNCZEeyD_edza33nrg" name="questionTitle">
+        <modelElement href="SurevyCartel2.uml#_q6CEQtCZEeyD_edza33nrg"/>
+        <cardinality xmi:id="_rDydbdCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+        <type xmi:id="_rDydbtCZEeyD_edza33nrg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_rDydb9CZEeyD_edza33nrg" name="questionDescription">
+        <modelElement href="SurevyCartel2.uml#_q6CEQ9CZEeyD_edza33nrg"/>
+        <cardinality xmi:id="_rDydcNCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+        <type xmi:id="_rDydcdCZEeyD_edza33nrg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_rDydctCZEeyD_edza33nrg" name="userEmail">
+        <modelElement href="SurevyCartel2.uml#_q6CERNCZEeyD_edza33nrg"/>
+        <cardinality xmi:id="_rDydc9CZEeyD_edza33nrg" label="1" max="1" min="1"/>
+        <type xmi:id="_rDyddNCZEeyD_edza33nrg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_rD-qcNCZEeyD_edza33nrg" name="User" associationsOut="_rDhXcNCZEeyD_edza33nrg _rDh-gNCZEeyD_edza33nrg">
+    <modelElement href="SurevyCartel2.uml#_qzYCoNCZEeyD_edza33nrg"/>
+    <visualProperties xmi:id="_rD-qcdCZEeyD_edza33nrg" position="-998.0,298.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_rD-qctCZEeyD_edza33nrg" name="Table">
+      <modelElement href="SurevyCartel2.uml#_qzeJQNCZEeyD_edza33nrg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_rD-qc9CZEeyD_edza33nrg" name="JPA1StyledElement">
+      <modelElement href="SurevyCartel2.uml#_qzfXYNCZEeyD_edza33nrg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_rD-qdNCZEeyD_edza33nrg" name="TechnicalSupplement">
+      <modelElement href="SurevyCartel2.uml#_qzglgNCZEeyD_edza33nrg"/>
+    </stereotypes>
+    <visibility xmi:id="_rD-qddCZEeyD_edza33nrg" label="+"/>
+    <attributes xmi:id="_rD-qdtCZEeyD_edza33nrg" name="id">
+      <modelElement href="SurevyCartel2.uml#_q7HpYNCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rD-qd9CZEeyD_edza33nrg" name="PrimaryKey">
+        <modelElement href="SurevyCartel2.uml#_q7HpYdCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rD-qeNCZEeyD_edza33nrg" name="GeneratedValueMapping">
+        <modelElement href="SurevyCartel2.uml#_q7HpYtCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rD-qedCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rD-qetCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <type xmi:id="_rD-qe9CZEeyD_edza33nrg" name="Long">
+        <modelElement href="SurevyCartel2.uml#_q5n0kNCZEeyD_edza33nrg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rD-qfNCZEeyD_edza33nrg" name="fullName">
+      <modelElement href="SurevyCartel2.uml#_q7I3gNCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rD-qfdCZEeyD_edza33nrg" name="Column">
+        <modelElement href="SurevyCartel2.uml#_q7OXENCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rD-qftCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rD-qf9CZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <type xmi:id="_rD-qgNCZEeyD_edza33nrg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rD-qgdCZEeyD_edza33nrg" name="mobileNo">
+      <modelElement href="SurevyCartel2.uml#_q7PlMNCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rD-qgtCZEeyD_edza33nrg" name="Column">
+        <modelElement href="SurevyCartel2.uml#_q7W58NCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rD-qg9CZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rD-qhNCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <type xmi:id="_rD-qhdCZEeyD_edza33nrg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rD-qhtCZEeyD_edza33nrg" name="email">
+      <modelElement href="SurevyCartel2.uml#_q7YIENCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rD-qh9CZEeyD_edza33nrg" name="StyledElement">
+        <modelElement href="SurevyCartel2.uml#_q7YIEdCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rD-qiNCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rD-qidCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <type xmi:id="_rD-qitCZEeyD_edza33nrg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rD-qi9CZEeyD_edza33nrg" name="password">
+      <modelElement href="SurevyCartel2.uml#_q7YvINCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rD-qjNCZEeyD_edza33nrg" name="StyledElement">
+        <modelElement href="SurevyCartel2.uml#_q7YvIdCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rD-qjdCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rD-qjtCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <type xmi:id="_rD-qj9CZEeyD_edza33nrg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rD-qkNCZEeyD_edza33nrg" name="organization">
+      <modelElement href="SurevyCartel2.uml#_q7YvItCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rD-qkdCZEeyD_edza33nrg" name="StyledElement">
+        <modelElement href="SurevyCartel2.uml#_q7ZWMNCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rD-qktCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rD-qk9CZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <type xmi:id="_rD-qlNCZEeyD_edza33nrg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rD-qldCZEeyD_edza33nrg" name="profession">
+      <modelElement href="SurevyCartel2.uml#_q7ZWMdCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rD-qltCZEeyD_edza33nrg" name="StyledElement">
+        <modelElement href="SurevyCartel2.uml#_q7ZWMtCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rD-ql9CZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rD-qmNCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <type xmi:id="_rD-qmdCZEeyD_edza33nrg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rD-qmtCZEeyD_edza33nrg" defaultValue="true" name="enabled">
+      <modelElement href="SurevyCartel2.uml#_q7Z9QNCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rD-qm9CZEeyD_edza33nrg" name="LegacyStyledElement">
+        <modelElement href="SurevyCartel2.uml#_q7Z9QtCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rD-qnNCZEeyD_edza33nrg" label="-"/>
+      <cardinality xmi:id="_rD-qndCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <type xmi:id="_rD-qntCZEeyD_edza33nrg" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rD-qn9CZEeyD_edza33nrg" defaultValue="new HashSet&lt;>()" name="userRoles">
+      <modelElement href="SurevyCartel2.uml#_q7akUNCZEeyD_edza33nrg"/>
+      <visibility xmi:id="_rD-qoNCZEeyD_edza33nrg" label="-"/>
+      <cardinality xmi:id="_rD-qodCZEeyD_edza33nrg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_rD-qotCZEeyD_edza33nrg" name="UserRole">
+        <modelElement href="SurevyCartel2.uml#_qz_tsNCZEeyD_edza33nrg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_rD-qo9CZEeyD_edza33nrg" name="User">
+      <modelElement href="SurevyCartel2.uml#_qzjBwNCZEeyD_edza33nrg"/>
+      <keywords xmi:id="_rD-qpNCZEeyD_edza33nrg" keyword="create"/>
+      <stereotypes xmi:id="_rD-qpdCZEeyD_edza33nrg" name="LegacyStyledElement">
+        <modelElement href="SurevyCartel2.uml#_qzjo0NCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rD-qptCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rD-qp9CZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rD-qqNCZEeyD_edza33nrg">
+        <modelElement href="SurevyCartel2.uml#_qzjo0dCZEeyD_edza33nrg"/>
+        <type xmi:id="_rD-qqdCZEeyD_edza33nrg" name="User">
+          <modelElement href="SurevyCartel2.uml#_qzYCoNCZEeyD_edza33nrg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rD-qqtCZEeyD_edza33nrg" name="setEnabled">
+      <modelElement href="SurevyCartel2.uml#_qzk28NCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rD-qq9CZEeyD_edza33nrg" name="StyledElement">
+        <modelElement href="SurevyCartel2.uml#_qzleAdCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rD-qrNCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rD-qrdCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_rD-qrtCZEeyD_edza33nrg" name="enabled">
+        <modelElement href="SurevyCartel2.uml#_qzleANCZEeyD_edza33nrg"/>
+        <cardinality xmi:id="_rD-qr9CZEeyD_edza33nrg" label="1" max="1" min="1"/>
+        <type xmi:id="_rD-qsNCZEeyD_edza33nrg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rD-qsdCZEeyD_edza33nrg" name="getUserRoles">
+      <modelElement href="SurevyCartel2.uml#_qzmFENCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rD-qstCZEeyD_edza33nrg" name="StyledElement">
+        <modelElement href="SurevyCartel2.uml#_qzmsINCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rD-qs9CZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rD-qtNCZEeyD_edza33nrg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_rD-qtdCZEeyD_edza33nrg">
+        <modelElement href="SurevyCartel2.uml#_qzmFEdCZEeyD_edza33nrg"/>
+        <type xmi:id="_rD-qttCZEeyD_edza33nrg" name="UserRole">
+          <modelElement href="SurevyCartel2.uml#_qz_tsNCZEeyD_edza33nrg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rD-qt9CZEeyD_edza33nrg" name="getAuthorities">
+      <modelElement href="SurevyCartel2.uml#_qzmsIdCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rD-quNCZEeyD_edza33nrg" name="Generics">
+        <modelElement href="SurevyCartel2.uml#_qzsywNCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rD-qudCZEeyD_edza33nrg" name="LegacyStyledElement">
+        <modelElement href="SurevyCartel2.uml#_qztZ0NCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rD-qutCZEeyD_edza33nrg" name="Annotations">
+        <modelElement href="SurevyCartel2.uml#_qzuA4NCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rD-qu9CZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rD-qvNCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rD-qvdCZEeyD_edza33nrg">
+        <modelElement href="SurevyCartel2.uml#_q6hMcNCZEeyD_edza33nrg"/>
+        <type xmi:id="_rD-qvtCZEeyD_edza33nrg" name="Collection">
+          <modelElement href="SurevyCartel2.uml#_q4J08NCZEeyD_edza33nrg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rD-qv9CZEeyD_edza33nrg" name="getUsername">
+      <modelElement href="SurevyCartel2.uml#_qzuA4tCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rD-qwNCZEeyD_edza33nrg" name="LegacyStyledElement">
+        <modelElement href="SurevyCartel2.uml#_qzun8dCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rD-qwdCZEeyD_edza33nrg" name="Annotations">
+        <modelElement href="SurevyCartel2.uml#_qzvPANCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rD-qwtCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rD-qw9CZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rD-qxNCZEeyD_edza33nrg">
+        <modelElement href="SurevyCartel2.uml#_qzun8NCZEeyD_edza33nrg"/>
+        <type xmi:id="_rD-qxdCZEeyD_edza33nrg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rD-qxtCZEeyD_edza33nrg" name="isAccountNonExpired">
+      <modelElement href="SurevyCartel2.uml#_qzvPAtCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rD-qx9CZEeyD_edza33nrg" name="LegacyStyledElement">
+        <modelElement href="SurevyCartel2.uml#_qzv2EdCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rD-qyNCZEeyD_edza33nrg" name="Annotations">
+        <modelElement href="SurevyCartel2.uml#_qzwdINCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rD-qydCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rD-qytCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rD-qy9CZEeyD_edza33nrg">
+        <modelElement href="SurevyCartel2.uml#_qzv2ENCZEeyD_edza33nrg"/>
+        <type xmi:id="_rD-qzNCZEeyD_edza33nrg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rD-qzdCZEeyD_edza33nrg" name="isAccountNonLocked">
+      <modelElement href="SurevyCartel2.uml#_qzwdItCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rD-qztCZEeyD_edza33nrg" name="LegacyStyledElement">
+        <modelElement href="SurevyCartel2.uml#_qzxrQNCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rD-qz9CZEeyD_edza33nrg" name="Annotations">
+        <modelElement href="SurevyCartel2.uml#_qzxrQdCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rD-q0NCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rD-q0dCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rD-q0tCZEeyD_edza33nrg">
+        <modelElement href="SurevyCartel2.uml#_qzxEMNCZEeyD_edza33nrg"/>
+        <type xmi:id="_rD-q09CZEeyD_edza33nrg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rD-q1NCZEeyD_edza33nrg" name="isCredentialsNonExpired">
+      <modelElement href="SurevyCartel2.uml#_qzySUNCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rD-q1dCZEeyD_edza33nrg" name="LegacyStyledElement">
+        <modelElement href="SurevyCartel2.uml#_qzy5YNCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rD-q1tCZEeyD_edza33nrg" name="Annotations">
+        <modelElement href="SurevyCartel2.uml#_qzy5YdCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rD-q19CZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rD-q2NCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rD-q2dCZEeyD_edza33nrg">
+        <modelElement href="SurevyCartel2.uml#_qzySUdCZEeyD_edza33nrg"/>
+        <type xmi:id="_rD-q2tCZEeyD_edza33nrg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rD-q29CZEeyD_edza33nrg" name="isEnabled">
+      <modelElement href="SurevyCartel2.uml#_qzzgcdCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rD-q3NCZEeyD_edza33nrg" name="LegacyStyledElement">
+        <modelElement href="SurevyCartel2.uml#_qz0HgdCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rD-q3dCZEeyD_edza33nrg" name="Annotations">
+        <modelElement href="SurevyCartel2.uml#_qz0ukNCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rD-q3tCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rD-q39CZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rD-q4NCZEeyD_edza33nrg">
+        <modelElement href="SurevyCartel2.uml#_qz0HgNCZEeyD_edza33nrg"/>
+        <type xmi:id="_rD-q4dCZEeyD_edza33nrg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rD-q4tCZEeyD_edza33nrg" name="User">
+      <modelElement href="SurevyCartel2.uml#_q6Ix8NCZEeyD_edza33nrg"/>
+      <keywords xmi:id="_rD-q49CZEeyD_edza33nrg" keyword="create"/>
+      <stereotypes xmi:id="_rD-q5NCZEeyD_edza33nrg" name="StyledElement">
+        <modelElement href="SurevyCartel2.uml#_q6KnINCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rD-q5dCZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rD-q5tCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rD-q59CZEeyD_edza33nrg">
+        <modelElement href="SurevyCartel2.uml#_q6KAEtCZEeyD_edza33nrg"/>
+        <type xmi:id="_rD-q6NCZEeyD_edza33nrg" name="User">
+          <modelElement href="SurevyCartel2.uml#_qzYCoNCZEeyD_edza33nrg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_rD-q6dCZEeyD_edza33nrg" name="fullName">
+        <modelElement href="SurevyCartel2.uml#_q6Ix8dCZEeyD_edza33nrg"/>
+        <cardinality xmi:id="_rD-q6tCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+        <type xmi:id="_rD-q69CZEeyD_edza33nrg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_rD-q7NCZEeyD_edza33nrg" name="mobileNo">
+        <modelElement href="SurevyCartel2.uml#_q6Ix8tCZEeyD_edza33nrg"/>
+        <cardinality xmi:id="_rD-q7dCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+        <type xmi:id="_rD-q7tCZEeyD_edza33nrg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_rD-q79CZEeyD_edza33nrg" name="email">
+        <modelElement href="SurevyCartel2.uml#_q6Ix89CZEeyD_edza33nrg"/>
+        <cardinality xmi:id="_rD-q8NCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+        <type xmi:id="_rD-q8dCZEeyD_edza33nrg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_rD-q8tCZEeyD_edza33nrg" name="password">
+        <modelElement href="SurevyCartel2.uml#_q6JZANCZEeyD_edza33nrg"/>
+        <cardinality xmi:id="_rD-q89CZEeyD_edza33nrg" label="1" max="1" min="1"/>
+        <type xmi:id="_rD-q9NCZEeyD_edza33nrg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_rD-q9dCZEeyD_edza33nrg" name="organization">
+        <modelElement href="SurevyCartel2.uml#_q6JZAdCZEeyD_edza33nrg"/>
+        <cardinality xmi:id="_rD-q9tCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+        <type xmi:id="_rD-q99CZEeyD_edza33nrg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_rD-q-NCZEeyD_edza33nrg" name="profession">
+        <modelElement href="SurevyCartel2.uml#_q6JZAtCZEeyD_edza33nrg"/>
+        <cardinality xmi:id="_rD-q-dCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+        <type xmi:id="_rD-q-tCZEeyD_edza33nrg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_rD-q-9CZEeyD_edza33nrg" name="enabled">
+        <modelElement href="SurevyCartel2.uml#_q6JZA9CZEeyD_edza33nrg"/>
+        <cardinality xmi:id="_rD-q_NCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+        <type xmi:id="_rD-q_dCZEeyD_edza33nrg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_rD-q_tCZEeyD_edza33nrg" name="userRoles">
+        <modelElement href="SurevyCartel2.uml#_q6JZBNCZEeyD_edza33nrg"/>
+        <cardinality xmi:id="_rD-q_9CZEeyD_edza33nrg" label="1" max="1" min="1"/>
+        <type xmi:id="_rD-rANCZEeyD_edza33nrg" name="Set">
+          <modelElement href="SurevyCartel2.uml#_q2vfsdCZEeyD_edza33nrg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rD-rAdCZEeyD_edza33nrg" name="setUserRoles">
+      <modelElement href="SurevyCartel2.uml#_q6ZQoNCZEeyD_edza33nrg"/>
+      <stereotypes xmi:id="_rD-rAtCZEeyD_edza33nrg" name="StyledElement">
+        <modelElement href="SurevyCartel2.uml#_q6aewNCZEeyD_edza33nrg"/>
+      </stereotypes>
+      <visibility xmi:id="_rD-rA9CZEeyD_edza33nrg" label="+"/>
+      <cardinality xmi:id="_rD-rBNCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_rD-rBdCZEeyD_edza33nrg" name="userRoles">
+        <modelElement href="SurevyCartel2.uml#_q6ZQodCZEeyD_edza33nrg"/>
+        <cardinality xmi:id="_rD-rBtCZEeyD_edza33nrg" label="1" max="1" min="1"/>
+        <type xmi:id="_rD-rB9CZEeyD_edza33nrg" name="Set">
+          <modelElement href="SurevyCartel2.uml#_q2vfsdCZEeyD_edza33nrg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
